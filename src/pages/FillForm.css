@@ -1,0 +1,78 @@
+.form-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 25px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.form-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-question {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+}
+
+.question-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+  color: #222;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.option-label {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.option-label input {
+  margin-right: 8px;
+}
+
+.submit-section {
+  margin-top: 25px;
+}
+
+/* Buttons same as dashboard */
+.btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background: #007bff;
+}
